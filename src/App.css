@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  background-color: antiquewhite;
+  
 }
 
 .App-logo {
@@ -11,6 +15,144 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.header-avaleht {
+  height: 102vh;
+  margin-top: -180px;
+} 
+
+.languages {
+  float: right;
+  margin-right: 20px;
+}
+
+.languages-button {
+  margin-right: 1px;
+  border: 0px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #d89254;
+  color: aliceblue;
+  font-family: 'Oswald', Helvetica, Arial, Lucida, sans-serif;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.languages-button:hover {
+  transition: .3s;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+
+.menu {
+  height: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: transparent;
+  border: 5px;
+  border-color: #282c34;
+  
+}
+
+.H1-header-avaleht {
+  font-family: 'Oswald', Helvetica, Arial, Lucida, sans-serif;
+  text-transform: uppercase;
+  font-size: 80px;
+  letter-spacing: 0.05em;
+  margin-bottom: 15px;
+  text-align: center;
+  padding-top: 35vh;
+  color: aliceblue;
+}
+
+.H2-header-avaleht {
+    font-family: 'Nunito', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    
+    color: aliceblue;
+    margin: 0px;
+}
+
+.avaleht-buttons {
+
+margin-top: 15px;
+}
+
+.button {
+    color: aliceblue;
+  margin: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-family: 'Oswald', Helvetica, Arial, Lucida, sans-serif;
+  background-color: #d89254;
+  border: #d89254;
+}
+
+.button:hover {
+  transition: .3s;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.H3 {
+  font-family: 'Oswald', Helvetica, Arial, Lucida, sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+}
+
+.block1 {
+  margin-top: 70px;
+  margin-bottom: 100px;
+  padding-bottom: 0px;
+}
+
+.text {
+  font-family: 'Nunito', Helvetica, Arial, Lucida, sans-serif;
+  font-size: 20px;
+  letter-spacing: 0px;
+}
+
+.main-link-list {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 25%;
+
+}
+
+.main-link-list-2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 16% 25%;
+
+}
+
+.main-link {
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  text-align: center;
+}
+
+.main-link img {
+  width: 280px;
+  height: 280px;
+}
+
+.main-link:hover {
+  transition: .8s;
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 .App-header {
@@ -36,3 +178,4 @@
     transform: rotate(360deg);
   }
 }
+

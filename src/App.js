@@ -1,23 +1,32 @@
-import logo from './logo.svg';
+import { useState } from 'react';
+import { Link, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Avaleht from './Pages/Avaleht';
+import Naturavita from './Pages/Naturavita';
 
 function App() {
+
+  const [keel, muudaKeel] = useState('EE');
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='menu'>
+        
+        <div className='links'>
+          
+
+        </div>
+        
+        <div className='languages'>
+          <button className='languages-button'>ET</button>
+          <button className='languages-button'>RU</button>
+
+        </div>
+      </div>
+      <Routes>
+        <Route path='' element={<Avaleht />} />
+        <Route path='naturavita' element={ <Naturavita />} />
+      </Routes>
     </div>
   );
 }
